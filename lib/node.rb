@@ -1,5 +1,6 @@
 class Node
-  attr_reader :score, :movie_title, :left, :right
+  attr_reader :score, :movie_title
+  attr_accessor :left, :right
 
   def initialize(score, movie_title)
     @score = score
